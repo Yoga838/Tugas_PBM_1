@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
                                   itemCount: 5,
-                                  itemSize: 30,
+                                  itemSize: 20,
                                   unratedColor: Colors.grey[300],
                                   itemBuilder: (context, _) => Icon(
                                     Icons.star,
@@ -152,7 +152,7 @@ class MyApp extends StatelessWidget {
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
                                   itemCount: 5,
-                                  itemSize: 30,
+                                  itemSize: 20,
                                   unratedColor: Colors.grey[300],
                                   itemBuilder: (context, _) => Icon(
                                     Icons.star,
@@ -224,7 +224,7 @@ class MyApp extends StatelessWidget {
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
                                   itemCount: 5,
-                                  itemSize: 30,
+                                  itemSize: 20,
                                   unratedColor: Colors.grey[300],
                                   itemBuilder: (context, _) => Icon(
                                     Icons.star,
@@ -269,7 +269,7 @@ class MyApp extends StatelessWidget {
                                 Text(
                                   "Kacang Merah",
                                   style: TextStyle(
-                                    fontSize: 24,
+                                    fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
@@ -295,7 +295,7 @@ class MyApp extends StatelessWidget {
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
                                   itemCount: 5,
-                                  itemSize: 30,
+                                  itemSize: 20,
                                   unratedColor: Colors.grey[300],
                                   itemBuilder: (context, _) => Icon(
                                     Icons.star,
@@ -366,7 +366,7 @@ class MyApp extends StatelessWidget {
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
                                   itemCount: 5,
-                                  itemSize: 30,
+                                  itemSize: 20,
                                   unratedColor: Colors.grey[300],
                                   itemBuilder: (context, _) => Icon(
                                     Icons.star,
@@ -437,7 +437,7 @@ class MyApp extends StatelessWidget {
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
                                   itemCount: 5,
-                                  itemSize: 30,
+                                  itemSize: 20,
                                   unratedColor: Colors.grey[300],
                                   itemBuilder: (context, _) => Icon(
                                     Icons.star,

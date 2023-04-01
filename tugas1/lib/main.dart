@@ -28,7 +28,8 @@ class MyApp extends StatelessWidget {
                         margin: const EdgeInsets.all(10),
                         width: 400,
                         height: 200,
-                        padding: EdgeInsets.all(30),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
                             color: Color(0xFF655DBB),
                             borderRadius: BorderRadius.circular(25)),
@@ -93,11 +94,15 @@ class MyApp extends StatelessWidget {
                             ))
                           ],
                         )),
+
+//next
+
                     Container(
                         margin: const EdgeInsets.all(10),
                         width: 400,
                         height: 200,
-                        padding: EdgeInsets.all(30),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
                             color: Color(0xFF655DBB),
                             borderRadius: BorderRadius.circular(25)),
@@ -107,7 +112,8 @@ class MyApp extends StatelessWidget {
                             Expanded(
                               child: Image(
                                 alignment: Alignment.centerLeft,
-                                image: AssetImage('assets/images/es-buah.jpg'),
+                                image:
+                                    AssetImage('assets/images/es-campur.jpeg'),
                                 height: 80, // set tinggi gambar
                                 width: 80, // set lebar gambar
                               ),
@@ -118,7 +124,7 @@ class MyApp extends StatelessWidget {
                               // mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  "es buah",
+                                  "es campur",
                                   style: TextStyle(
                                     fontSize: 24,
                                     fontWeight: FontWeight.bold,
@@ -126,14 +132,14 @@ class MyApp extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "Dibuat Oleh Pak Mamat",
+                                  "Dibuat Oleh Pak Ilham",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Text(
-                                  "Jl.Jawa 6",
+                                  "Jl.Mastrip",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -141,7 +147,7 @@ class MyApp extends StatelessWidget {
                                 ),
 //11
                                 RatingBar.builder(
-                                  initialRating: 3,
+                                  initialRating: 4,
                                   minRating: 1,
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
@@ -156,17 +162,19 @@ class MyApp extends StatelessWidget {
                                     print(rating);
                                   },
                                 )
-
-//22
                               ],
                             ))
                           ],
                         )),
+
+//next
+
                     Container(
                         margin: const EdgeInsets.all(10),
                         width: 400,
                         height: 200,
-                        padding: EdgeInsets.all(30),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
                             color: Color(0xFF655DBB),
                             borderRadius: BorderRadius.circular(25)),
@@ -176,7 +184,8 @@ class MyApp extends StatelessWidget {
                             Expanded(
                               child: Image(
                                 alignment: Alignment.centerLeft,
-                                image: AssetImage('assets/images/es-buah.jpg'),
+                                image: AssetImage(
+                                    'assets/images/es-dawet-durian.jpg'),
                                 height: 80, // set tinggi gambar
                                 width: 80, // set lebar gambar
                               ),
@@ -187,7 +196,7 @@ class MyApp extends StatelessWidget {
                               // mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  "es buah",
+                                  "es durian",
                                   style: TextStyle(
                                     fontSize: 24,
                                     fontWeight: FontWeight.bold,
@@ -195,14 +204,14 @@ class MyApp extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "Dibuat Oleh Pak Mamat",
+                                  "Dibuat Oleh Buk Tukiyem",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Text(
-                                  "Jl.Jawa 6",
+                                  "Jl.Kalimantan",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -210,7 +219,7 @@ class MyApp extends StatelessWidget {
                                 ),
 //11
                                 RatingBar.builder(
-                                  initialRating: 3,
+                                  initialRating: 4.5,
                                   minRating: 1,
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
@@ -225,17 +234,18 @@ class MyApp extends StatelessWidget {
                                     print(rating);
                                   },
                                 )
-
-//22
                               ],
                             ))
                           ],
                         )),
+                    //next
+
                     Container(
                         margin: const EdgeInsets.all(10),
                         width: 400,
                         height: 200,
-                        padding: EdgeInsets.all(30),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
                             color: Color(0xFF655DBB),
                             borderRadius: BorderRadius.circular(25)),
@@ -245,7 +255,8 @@ class MyApp extends StatelessWidget {
                             Expanded(
                               child: Image(
                                 alignment: Alignment.centerLeft,
-                                image: AssetImage('assets/images/es-buah.jpg'),
+                                image: AssetImage(
+                                    'assets/images/es-kacang-merah.jpg'),
                                 height: 80, // set tinggi gambar
                                 width: 80, // set lebar gambar
                               ),
@@ -256,7 +267,7 @@ class MyApp extends StatelessWidget {
                               // mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  "es buah",
+                                  "Kacang Merah",
                                   style: TextStyle(
                                     fontSize: 24,
                                     fontWeight: FontWeight.bold,
@@ -264,14 +275,14 @@ class MyApp extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "Dibuat Oleh Pak Mamat",
+                                  "Dibuat Oleh Pak Somad",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Text(
-                                  "Jl.Jawa 6",
+                                  "Jl.Riau",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -279,7 +290,7 @@ class MyApp extends StatelessWidget {
                                 ),
 //11
                                 RatingBar.builder(
-                                  initialRating: 3,
+                                  initialRating: 4,
                                   minRating: 1,
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
@@ -294,17 +305,18 @@ class MyApp extends StatelessWidget {
                                     print(rating);
                                   },
                                 )
-
-//22
                               ],
                             ))
                           ],
                         )),
+                    //next
+
                     Container(
                         margin: const EdgeInsets.all(10),
                         width: 400,
                         height: 200,
-                        padding: EdgeInsets.all(30),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
                             color: Color(0xFF655DBB),
                             borderRadius: BorderRadius.circular(25)),
@@ -314,7 +326,8 @@ class MyApp extends StatelessWidget {
                             Expanded(
                               child: Image(
                                 alignment: Alignment.centerLeft,
-                                image: AssetImage('assets/images/es-buah.jpg'),
+                                image: AssetImage(
+                                    'assets/images/es-pisang-ijo.jpg'),
                                 height: 80, // set tinggi gambar
                                 width: 80, // set lebar gambar
                               ),
@@ -325,7 +338,7 @@ class MyApp extends StatelessWidget {
                               // mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  "es buah",
+                                  "Pisang Ijo",
                                   style: TextStyle(
                                     fontSize: 24,
                                     fontWeight: FontWeight.bold,
@@ -333,14 +346,14 @@ class MyApp extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "Dibuat Oleh Pak Mamat",
+                                  "Dibuat Oleh Pak Gilang",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Text(
-                                  "Jl.Jawa 6",
+                                  "Jl.Karimata",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -348,7 +361,7 @@ class MyApp extends StatelessWidget {
                                 ),
 //11
                                 RatingBar.builder(
-                                  initialRating: 3,
+                                  initialRating: 3.5,
                                   minRating: 1,
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
@@ -363,17 +376,18 @@ class MyApp extends StatelessWidget {
                                     print(rating);
                                   },
                                 )
-
-//22
                               ],
                             ))
                           ],
                         )),
+                    //next
+
                     Container(
                         margin: const EdgeInsets.all(10),
                         width: 400,
                         height: 200,
-                        padding: EdgeInsets.all(30),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
                             color: Color(0xFF655DBB),
                             borderRadius: BorderRadius.circular(25)),
@@ -383,7 +397,8 @@ class MyApp extends StatelessWidget {
                             Expanded(
                               child: Image(
                                 alignment: Alignment.centerLeft,
-                                image: AssetImage('assets/images/es-buah.jpg'),
+                                image:
+                                    AssetImage('assets/images/es-sanghai.jpeg'),
                                 height: 80, // set tinggi gambar
                                 width: 80, // set lebar gambar
                               ),
@@ -394,7 +409,7 @@ class MyApp extends StatelessWidget {
                               // mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  "es buah",
+                                  "es sanghai",
                                   style: TextStyle(
                                     fontSize: 24,
                                     fontWeight: FontWeight.bold,
@@ -402,14 +417,14 @@ class MyApp extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "Dibuat Oleh Pak Mamat",
+                                  "Dibuat Oleh Pak Imam",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Text(
-                                  "Jl.Jawa 6",
+                                  "Jl.Bangka",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
@@ -417,7 +432,7 @@ class MyApp extends StatelessWidget {
                                 ),
 //11
                                 RatingBar.builder(
-                                  initialRating: 3,
+                                  initialRating: 5,
                                   minRating: 1,
                                   direction: Axis.horizontal,
                                   allowHalfRating: true,
@@ -432,77 +447,6 @@ class MyApp extends StatelessWidget {
                                     print(rating);
                                   },
                                 )
-
-//22
-                              ],
-                            ))
-                          ],
-                        )),
-                    Container(
-                        margin: const EdgeInsets.all(10),
-                        width: 400,
-                        height: 200,
-                        padding: EdgeInsets.all(30),
-                        decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
-                            borderRadius: BorderRadius.circular(25)),
-                        child: Row(
-                          // textDirection: TextDirection.rtl,
-                          children: <Widget>[
-                            Expanded(
-                              child: Image(
-                                alignment: Alignment.centerLeft,
-                                image: AssetImage('assets/images/es-buah.jpg'),
-                                height: 80, // set tinggi gambar
-                                width: 80, // set lebar gambar
-                              ),
-                            ),
-                            Expanded(
-                                child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              // mainAxisSize: MainAxisSize.max,
-                              children: [
-                                Text(
-                                  "es buah",
-                                  style: TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                                Text(
-                                  "Dibuat Oleh Pak Mamat",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                                Text(
-                                  "Jl.Jawa 6",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                  ),
-                                ),
-//11
-                                RatingBar.builder(
-                                  initialRating: 3,
-                                  minRating: 1,
-                                  direction: Axis.horizontal,
-                                  allowHalfRating: true,
-                                  itemCount: 5,
-                                  itemSize: 30,
-                                  unratedColor: Colors.grey[300],
-                                  itemBuilder: (context, _) => Icon(
-                                    Icons.star,
-                                    color: Colors.amber,
-                                  ),
-                                  onRatingUpdate: (rating) {
-                                    print(rating);
-                                  },
-                                )
-
-//22
                               ],
                             ))
                           ],

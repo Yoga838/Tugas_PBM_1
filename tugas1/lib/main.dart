@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
+            backgroundColor: Color(0xff19a7ce),
             appBar: AppBar(
               centerTitle: true,
               title: Text("Data List Es Buah"),
-              backgroundColor: Color(0xFF3E54AC),
+              backgroundColor: Color(0xff000000),
             ),
             body: ListView(
               scrollDirection: Axis.vertical,
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
                         padding:
                             EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
+                            color: Color(0xff146c94),
                             borderRadius: BorderRadius.circular(25)),
                         child: Row(
                           // textDirection: TextDirection.rtl,
@@ -104,7 +105,7 @@ class MyApp extends StatelessWidget {
                         padding:
                             EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
+                            color: Color(0xff146c94),
                             borderRadius: BorderRadius.circular(25)),
                         child: Row(
                           // textDirection: TextDirection.rtl,
@@ -176,7 +177,7 @@ class MyApp extends StatelessWidget {
                         padding:
                             EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
+                            color: Color(0xff146c94),
                             borderRadius: BorderRadius.circular(25)),
                         child: Row(
                           // textDirection: TextDirection.rtl,
@@ -247,7 +248,7 @@ class MyApp extends StatelessWidget {
                         padding:
                             EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
+                            color: Color(0xff146c94),
                             borderRadius: BorderRadius.circular(25)),
                         child: Row(
                           // textDirection: TextDirection.rtl,
@@ -318,7 +319,7 @@ class MyApp extends StatelessWidget {
                         padding:
                             EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
+                            color: Color(0xff146c94),
                             borderRadius: BorderRadius.circular(25)),
                         child: Row(
                           // textDirection: TextDirection.rtl,
@@ -389,7 +390,7 @@ class MyApp extends StatelessWidget {
                         padding:
                             EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                         decoration: BoxDecoration(
-                            color: Color(0xFF655DBB),
+                            color: Color(0xff146c94),
                             borderRadius: BorderRadius.circular(25)),
                         child: Row(
                           // textDirection: TextDirection.rtl,
